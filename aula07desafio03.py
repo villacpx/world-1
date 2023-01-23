@@ -1,0 +1,5 @@
+print('CALCULADOR DE MÉDIA NAS NOTAS')
+n1 = float(input('Digite sua nota do primeiro trimestre. '))
+n2 = float(input('Agora, do segundo trimestre. '))
+n3 = float(input('E por último, do terceiro trimestre '))
+print(f'Em base das suas notas, sua media é:7 {(n1+n2+n3)/3:.1f} ')

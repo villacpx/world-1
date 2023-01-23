@@ -1,0 +1,5 @@
+print('Conversor de metros em centímetros e milímetros.')
+metros = float(input('Digite a quantidade de metros: '))
+cm = (metros*100)
+mm = (metros*1000)
+print(f'A quantidade de centímetros é {int(cm)} \n E a quantidade em milímetros é {int(mm)}')

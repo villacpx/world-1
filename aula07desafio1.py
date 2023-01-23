@@ -1,0 +1,5 @@
+print('Crie um algoritmo que leia e fale seu antecessor e seu sucessor')
+n1 = int(input('Digite um número '))
+N1 = (n1+1)
+print(f'o antecessor do número digitado é {n1-1}')
+print(f'o sucessor do número digitado é {N1}')

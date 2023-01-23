@@ -1,0 +1,7 @@
+print('SEU NOVO SALÁRIO')
+satual = int(input('Qual é seu salário atual? '))
+print('Após 4 meses de serviço avaliado positivamente você ganhou um aumento')
+print('Seu aumento será de 15%')
+diferença = ((satual*15)/100)
+novo = (diferença+satual)
+print(f'Seu novo salário é de {novo:.2f} reais')

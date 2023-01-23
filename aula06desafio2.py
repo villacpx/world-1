@@ -1,0 +1,18 @@
+tecla = input('Digite qualquer tecla ')
+print('O tipo primitivo dessa tecla é', type(tecla))
+print('Essa tecla é um alphanmérico ', tecla.isalnum())
+print('Essa tecla é um número? ', tecla.isnumeric())
+print('Essa tecla é uma letra? ', tecla.isalpha())
+print('Essa tecla é decimal? ', tecla.isdecimal())
+print('Essa tecla está em maiúscula? ', tecla.isupper())
+print('Essa tecla está em minúscula', tecla.islower())
+print('Essa tecla é um ascii? ', tecla.isascii())
+print('Essa tecla tem  algum espaço? ', tecla.isspace())
+print('Essa tecla é um dígito?', tecla.isdigit())
+print('Essa tecla pode ser imprimida ', tecla.isprintable())
+print('Essa tecla é capitalizada? ', tecla.istitle())
+print('Essa tecla pode ser identificada? ', tecla.isidentifier())
+
+txt = 'Hello! /! @##$¨%@3%(¨Y$ Aare you #1'
+x = txt.isprintable()
+print(x)

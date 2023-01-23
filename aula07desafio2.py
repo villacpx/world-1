@@ -1,0 +1,11 @@
+print('Crie um algoritmo que leia um número e mostre o seu dobro, triplo e raiz quadrada')
+
+n1 = int(input('Digite um número: '))
+x = (n1*2)
+xx = (n1*3)
+rq = (n1**(1/2))
+print(f'O dobro do número digitado é {x} \n O triplo do número é {xx} \n A sua raiz quadrada é {rq:.3f}')
+n2 = int(input('Digite outro número: '))
+print(f'O dobro do número digitado é {n2*2}', end=' ')
+print(f'O triplo do número é {n2*3}', end=' ')
+print(f'Sua raiz quadrada é {n2**(1/2)}', end=' ')
