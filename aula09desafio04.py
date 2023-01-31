@@ -1,0 +1,5 @@
+nome = str(input('Digite seu nome: '))
+nome = nome.title()
+print(nome)
+silva = ('Silva' in nome)
+print(f'Seu nome tem silva? r: {silva}')
